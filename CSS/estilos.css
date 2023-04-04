@@ -65,3 +65,7 @@
     transform: translate(3%, -20%); /* el primer digito sirve para el desplazamiento horizontal y el segundo para el vertical*/
     background-size: cover;          
 }
+
+.prueba1 {
+    background: red;
+}
