@@ -1,5 +1,5 @@
-/* Importar fuente de Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+/* Importar fuente de Google Fonts - Poppins y Encode Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@
     width: 100%;
     padding: 0 20px;
     z-index: 100;
-    background: blue;
+    /*background: blue; color de fondo para apreciar el cambio*/
 }
 
 .nav {
@@ -23,22 +23,45 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background: green;
+    /*background: green;* color de fondo para apreciar el cambio*/
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav_logo {
-    font-size: 25px;
+.logo {
+    width: 10%;
+    height: auto;
+    border-radius: 5%;
 }
 
-/* Estilos del Home */
-.home{
+.button {
+    color: #fff;
+    padding: 6px 24px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.97);
+}
+
+/* Estilo Fondo Encabezado */
+.fondo{
     position: relative;
     background-image: url("/bg.jpg");
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+.acerca {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(3%, -20%); /* el primer digito sirve para el desplazamiento horizontal y el segundo para el vertical*/
+    background-size: cover;          
 }
