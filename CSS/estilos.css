@@ -58,6 +58,7 @@
     background-position: center;
 }
 
+/* Estilos de seccion Acerca de */
 .acerca {
     position: relative;
     top: 0;
@@ -66,6 +67,12 @@
     background-size: cover;          
 }
 
-.prueba1 {
-    background: red;
+#nombre{
+    font-size:xx-large;
+    font-family: "Poppins", sans-serif;
+}
+
+#titulo{
+    font-size:large;
+    font-family: "Poppins", sans-serif;
 }
