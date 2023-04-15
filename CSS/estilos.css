@@ -76,3 +76,26 @@
     font-size:large;
     font-family: "Poppins", sans-serif;
 }
+
+#titulo_modal_login{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins";
+    padding: 20px 0px;
+}
+
+#input_modal_login_correo{
+    border: none;    
+}
+
+#input_modal_login_contraseña{    
+    border: none;
+}
+
+.mod{
+    margin: 30px;
+}
+
+.boton-modal-ingresar{
+    border-radius: 6px;
+}
