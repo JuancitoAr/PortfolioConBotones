@@ -20,16 +20,18 @@
     <div class="fondo">
         <header class="header">
             <nav class="nav">
-                <div class="row">
-                    <div class="col-2">
-                        <img style="width: 100%;" src="/APLogo-20-20.png">
-                    </div>
-                    <div class="col-10 text-end pt-3">
-                        <i class="uil uil-github p-3" style="font-size: 3em; color: #fff"></i>
-                        <button class="button" style="transform: translate(0%,-30%);" data-bs-toggle="modal" data-bs-target="#login">Login</button>
-                        <button class="button" style="transform: translate(0%,-30%);" >Logout</button>
-                    </div>
-                </div>
+                <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
+                    <img style="width: 175px;" src="/APLogo-20-20.png">
+                </a>
+                <ul class="list-group list-group-horizontal nav-correccion">
+                    <li class="list-group-item"><i class="uil uil-github" style="font-size: 3em; color: #fff"></i></li>
+                    <li class="list-group-item">
+                        <button class="button" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+                    </li>
+                    <li class="list-group-item">
+                        <button class="button">Logout</button>
+                    </li>
+                </ul>
             </nav>
         </header>                                
     </div>
