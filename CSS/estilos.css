@@ -23,16 +23,9 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    /*background: green;* color de fondo para apreciar el cambio*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logo {
-    width: 10%;
-    height: auto;
-    border-radius: 5%;
 }
 
 .button {
