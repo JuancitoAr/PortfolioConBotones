@@ -42,8 +42,8 @@
     transform: scale(0.97);
 }
 
-/* Estilo Fondo Encabezado */
-.fondo{
+/* Estilo Banner */
+.banner{
     position: relative;
     background-image: url("/bg.jpg");
     height: 60vh;
