@@ -46,7 +46,7 @@
 .fondo{
     position: relative;
     background-image: url("/bg.jpg");
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@
     position: relative;
     top: 0;
     left: 0;
-    transform: translate(3%, -20%); /* el primer digito sirve para el desplazamiento horizontal y el segundo para el vertical*/
+    transform: translate(0%, -20%); /* el primer digito sirve para el desplazamiento horizontal y el segundo para el vertical*/
     background-size: cover;          
 }
 
