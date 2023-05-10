@@ -60,7 +60,7 @@
                         <h2 class="text-center color-titulo">Acerca de mi</h2>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#acercaDeMi"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 2.5em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#acercaDeMi"></i>
                     </div>
                 </div>
                 <p>Soy un estudiante avanzado de Ingenieria Quimica. Actualmente trabajo para el Estado Provincial Entrerriano, 
@@ -75,9 +75,12 @@
     <!-- Experiencia -->
     <section class="container">
             <div class="row">
-                <h1 class="color-titulo">
-                    Experiencia
-                </h1>
+                <div class="col">
+                    <h1 class="color-titulo">Experiencia</h1>
+                </div>
+                <div class="col-auto">
+                    <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarExperiencia"></i>
+                </div>   
             </div>
 
             <div class="card mx-1 my-1" id="Primer tarjeta">
@@ -92,8 +95,8 @@
                                     <h4 class="card-title">Pasantia en Planta Piloto - FIQ</h4>
                                 </div>
                                 <div class="col-auto">
-                                    <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                                    <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                                    <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarExperiencia"></i>
+                                    <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarExperiencia"></i>
                                 </div>
                             </div>
                             <p class="card-text">
@@ -120,8 +123,8 @@
                                     <h4 class="card-title">Instituto de Control de Alimentación y Bromatologia (ICAB)</h4>
                                 </div>
                                 <div class="col-auto">
-                                    <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                                    <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                                    <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarExperiencia"></i>
+                                    <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarExperiencia"></i>
                                 </div>
                             </div>
                             <p class="card-text">
@@ -155,111 +158,279 @@
         </p>
         <!-- Habilidades Duras -->
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <h3>Habilidades Duras</h3>
             </div>
             <div class="col-auto">
-                <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                <i class="uil uil-file-plus-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarHabilidadDura"></i>
             </div>
         </div>
         <div class="row mb-1">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">Git & GitHub</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Git & GitHub
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">HTML</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                HTML
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">CSS</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                CSS
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%">Bootstrap</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Bootstrap
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
-                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%">TypeScript</div>
+                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                TypeScript
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%">Angular</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Angular
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">MySQL</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                MySQL
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">Java</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Java
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%">SpringBoot</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                SpringBoot
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadDura"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadDura"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Habilidades Blandas -->
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <h3 class="mt-3">Habilidades Blandas</h3>
             </div>
             <div class="col-auto">
-                <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                <i class="uil uil-file-plus-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarHabilidadBlanda"></i>
             </div>
         </div>
         <div class="row mb-1">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%">Comunicación Efectiva</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Comunicación Efectiva
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 97%">Pensamiento Critico</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 97%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Pensamiento Critico
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%">Trabajo en equipo</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Trabajo en equipo
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">Adaptabilidad</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Adaptabilidad
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 60%">Creatibidad</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 60%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Creatibidad
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 60%">Resolución de conflictos</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 60%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Resolución de conflictos
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">Gestión del tiempo</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 50%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Gestión del tiempo
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 align-self-center mb-1">
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="height: 30px">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">Empatía</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                Empatía
+                            </div>
+                            <div class="col-auto">
+                                <i class="uil uil-file-edit-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#editarHabilidadBlanda"></i>
+                                <i class="uil uil-trash-alt" style="font-size: 1.5em;" data-bs-toggle="modal" data-bs-target="#eliminarHabilidadBlanda"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -272,7 +443,7 @@
                 <h1 class="color-titulo">Proyectos</h1>
             </div>
             <div class="col-auto">
-                <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9"></i>
+                <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarProyecto"></i>
             </div>            
         </div>
         <div class="card border-light mb-4 mt-3" style="max-width: auto;">
@@ -283,8 +454,8 @@
                         <h6>Año 2011</h6>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;""></i>
-                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarProyecto"></i>
+                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarProyecto"></i>
                     </div>
                 </div>
             </div>
@@ -305,8 +476,8 @@
                         <h6>Año 2011</h6>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarProyecto"></i>
+                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarProyecto"></i>
                     </div>
                 </div>
             </div>
@@ -329,8 +500,8 @@
                         <h6>Año 2015</h6>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarProyecto"></i>
+                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarProyecto"></i>
                     </div>
                 </div>
             </div>
@@ -344,7 +515,6 @@
                 digital online, siendo el responsable y gestor de la misma.</p>
                 <a href="https://sites.google.com/view/cma-icab" target="_blank">Ir a la web</a>
             </div>
-            
         </div>
 
         <div class="card border-light mb-4 mt-4" style="max-width: auto;">
@@ -355,8 +525,8 @@
                         <h6>Año 2019</h6>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
-                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarProyecto"></i>
+                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarProyecto"></i>
                     </div>
                 </div>
             </div>
@@ -450,16 +620,15 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="m-3">
+                    <div class="m-4">
                         <label for="enlaceNuevaFoto" class="form-label">Enlace de tu Foto</label>
                         <input class="form-control" id="enlaceNuevaFoto" type="text" aria-label="Enlace a tu nueva Foto">
-                        <div class="form-text">Procura usar una imagen de calidad y de tamaño acorde.</div>
                     </div>
-                    <div class="m-3">
+                    <div class="m-4">
                         <label for="nuevoNombre_Apellido" class="form-label">Nombre y Apellido</label>
                         <input class="form-control" id="nuevoNombre_Apellido" type="text" aria-label="Nombre y Apellido">
                     </div>
-                    <div class="m-3">
+                    <div class="m-4">
                         <label for="nuevoTitulo" class="form-label">Titulo</label>
                         <input class="form-control" id="nuevoTitulo" type="text" aria-label="Titulo">
                     </div>
@@ -483,9 +652,9 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="m-3">
-                        <label for="nuevaDescripcion" class="form-label">Editar descripción</label>
-                        <textarea class="form-control" id="nuevaDescripcion" type="text" aria-label="Nueva Descripcion sobre ti" rows="5"></textarea>
+                    <div class="m-4">
+                        <label for="nuevaDescripcionAdM" class="form-label">Editar descripción</label>
+                        <textarea class="form-control" id="nuevaDescripcionAdM" type="text" aria-label="Nueva Descripcion sobre ti" rows="5"></textarea>
                     </div>
                 </form>
             </div>
@@ -496,7 +665,368 @@
           </div>
         </div>
     </div>
-    
+
+    <!-- Modales Experiencia
+    ------------------------>
+        <!-- Modal Agregar Experiencia -->
+        <div class="modal fade" id="agregarExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalAgregarExperiencia">Nueva Experiencia Laboral</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="enlaceNuevaExperienciaLaboral" class="form-label">Imagen Experiencia Laboral</label>
+                                <input class="form-control" id="enlaceNuevaExperienciaLaboral" type="text" placeholder="Agrega el enlace de la imagen" aria-label="Enlace a tu nueva Foto">
+                            </div>
+                            <div class="m-4">
+                                <label for="nuevoTitulo" class="form-label">Titulo de la Experiencia Laboral</label>
+                                <input class="form-control" id="nuevoTitulo" type="text" aria-label="Titulo Experiencia Laboral">
+                            </div>
+                            <div class="m-4">
+                                <label for="nuevaDescripcionE" class="form-label">Descripción de la Experiencia Laboral</label>
+                                <textarea class="form-control" id="nuevaDescripcionE" type="text" aria-label="Nueva Descripcion de Experiencia" rows="5"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Editar Experiencia -->
+        <div class="modal fade" id="editarExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEditarExperiencia">Editar Experiencia Laboral</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="enlaceEditarExperienciaLaboral" class="form-label">Imagen Experiencia Laboral</label>
+                                <input class="form-control" id="enlaceEditarExperienciaLaboral" type="text" placeholder="Agrega el enlace de la imagen" aria-label="Enlace a tu nueva Foto">
+                            </div>
+                            <div class="m-4">
+                                <label for="editarTitulo" class="form-label">Titulo de la Experiencia Laboral</label>
+                                <input class="form-control" id="editarTitulo" type="text" aria-label="Titulo Experiencia Laboral">
+                            </div>
+                            <div class="m-4">
+                                <label for="editarDescripcionE" class="form-label">Descripción de la Experiencia Laboral</label>
+                                <textarea class="form-control" id="editarDescripcionE" type="text" aria-label="Editar Descripcion de Experiencia" rows="5"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Eliminar Experiencia -->
+        <div class="modal fade" id="eliminarExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEliminarExperiencia">Eliminar Experiencia Laboral</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                Estas a punto de <strong>Eliminar</strong> esta Experiencia Laboral!!! Estas Seguro?
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+    <!-- Modales Habilidades
+    ------------------------>
+        <!-- Modal Agregar Habilidad Dura -->
+        <div class="modal fade" id="agregarHabilidadDura" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalAgregarHabilidaDura">Nueva Habilidad Dura</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="nuevaHabilidadDura" class="form-label">Habilidad</label>
+                                <input class="form-control" id="nuevaHabilidadDura" type="text" placeholder="Por ejemplo: Html" aria-label="Habiliadad Dura">
+                            </div>
+                            <div class="m-4">
+                                <label for="nivelHabilidadDura" class="form-label">Nivel</label>
+                                <input class="form-control" id="nivelHabilidadDura" type="text" aria-label="Nivel de la habilidad">
+                                <div class="form-text">Ingrese solo el valor numerico</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Editar Habilidad Dura -->
+        <div class="modal fade" id="editarHabilidadDura" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEditarHabilidaDura">Editar Habilidad Dura</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="editarHabilidadDura" class="form-label">Habilidad</label>
+                                <input class="form-control" id="editarHabilidadDura" type="text" aria-label="Habiliadad Dura">
+                            </div>
+                            <div class="m-4">
+                                <label for="nivelHabilidadDura" class="form-label">Nivel</label>
+                                <input class="form-control" id="nivelHabilidadDura" type="text" aria-label="Nivel de la habilidad">
+                                <div class="form-text">Ingrese solo el valor numerico</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Eliminar Habilidad Dura -->
+        <div class="modal fade" id="eliminarHabilidadDura" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEliminarHabilidadDura">Eliminar esta Habilidad Dura</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                Estas a punto de <strong>Eliminar</strong> esta Habilidad Dura!!! Estas Seguro?
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Agregar Habilidad Blanda -->
+        <div class="modal fade" id="agregarHabilidadBlanda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalAgregarHabilidaBlanda">Nueva Habilidad Blanda</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="nuevaHabilidadBlanda" class="form-label">Habilidad</label>
+                                <input class="form-control" id="nuevaHabilidadBlanda" type="text" placeholder="Por ejemplo: Comunicación Efectiva" aria-label="Habiliadad Dura">
+                            </div>
+                            <div class="m-4">
+                                <label for="nivelHabilidadBlanda" class="form-label">Nivel</label>
+                                <input class="form-control" id="nivelHabilidadBlanda" type="text" aria-label="Nivel de la habilidad">
+                                <div class="form-text">Ingrese solo el valor numerico</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Editar Habilidad Blanda -->
+        <div class="modal fade" id="editarHabilidadBlanda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEditarHabilidaBlanda">Editar Habilidad Blanda</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                <label for="editarHabilidadBlanda" class="form-label">Habilidad</label>
+                                <input class="form-control" id="editarHabilidadBlanda" type="text" aria-label="Habiliadad Blanda">
+                            </div>
+                            <div class="m-4">
+                                <label for="nivelHabilidadBlanda" class="form-label">Nivel</label>
+                                <input class="form-control" id="nivelHabilidadBlanda" type="text" aria-label="Nivel de la habilidad">
+                                <div class="form-text">Ingrese solo el valor numerico</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Modal Eliminar Habilidad Blanda -->
+        <div class="modal fade" id="eliminarHabilidadBlanda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalEliminarHabilidadBlanda">Eliminar esta Habilidad Blanda</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="m-4">
+                                Estas a punto de <strong>Eliminar</strong> esta Habilidad Blanda!!! Estas Seguro?
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">Aceptar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+    <!-- Modales Proyectos
+    ---------------------->
+        <!-- Modal Agregar Proyecto -->
+        <div class="modal fade" id="agregarProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalAgregarProyecto">Nuevo Proyecto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-3">
+                            <label for="tituloNuevoProyecto" class="form-label">Titulo del Proyecto</label>
+                            <input class="form-control" id="tituloNuevoProyecto" type="text" aria-label="Titulo Nuevo Proyecto">
+                        </div>
+                        <div class="m-3">
+                            <label for="nuevaFecha" class="form-label">Año de Inicio</label>
+                            <input class="form-control" id="nuevaFecha" type="text" aria-label="Año de Inicio">
+                        </div>
+                        <div class="m-3">
+                            <label for="nuevaDescripcionP" class="form-label">Descripción del Proyecto</label>
+                            <textarea class="form-control" id="nuevaDescripcionP" type="text" aria-label="Nueva Descripcion de Proyecto" rows="5"></textarea>
+                        </div>
+                        <div class="m-3">
+                            <label for="nuevoEnlace" class="form-label">Enlace</label>
+                            <input class="form-control" id="nuevoEnlace" type="text" aria-label="Enlace">
+                        </div>
+                        <div class="m-3">
+                            <label for="textoNuevoEnlace" class="form-label">Texto del Enlace</label>
+                            <input class="form-control" id="textoNuevoEnlace" type="text" aria-label="Mascara Enlace">
+                            <div class="form-text">Usaremos este texto para enmascarar el enlace</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal Editar Proyecto -->
+        <div class="modal fade" id="editarProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalEditarProyecto">Editar Proyecto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-3">
+                            <label for="editarTituloProyecto" class="form-label">Titulo del Proyecto</label>
+                            <input class="form-control" id="editarTituloProyecto" type="text" aria-label="Editar Titulo Proyecto">
+                        </div>
+                        <div class="m-3">
+                            <label for="editarFecha" class="form-label">Año de Inicio</label>
+                            <input class="form-control" id="editarFecha" type="text" aria-label="Año de Inicio">
+                        </div>
+                        <div class="m-3">
+                            <label for="editarDescripcionP" class="form-label">Descripción del Proyecto</label>
+                            <textarea class="form-control" id="editarDescripcionP" type="text" aria-label="Editar Descripcion de Proyecto" rows="5"></textarea>
+                        </div>
+                        <div class="m-3">
+                            <label for="editarEnlaceP" class="form-label">Enlace</label>
+                            <input class="form-control" id="editarEnlaceP" type="text" aria-label="Enlace">
+                        </div>
+                        <div class="m-3">
+                            <label for="editarTextoEnlaceP" class="form-label">Texto del Enlace</label>
+                            <input class="form-control" id="editarTextoEnlaceP" type="text" aria-label="Mascara Enlace">
+                            <div class="form-text">Usaremos este texto para enmascarar el enlace</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal Eliminar Proyecto -->
+        <div class="modal fade" id="eliminarProyecto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalEliminarProyecto">Eliminar este Proyecto</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-4">
+                            Estas a punto de <strong>Eliminar</strong> este Proyecto!!! Estas Seguro?
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger">Aceptar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
     <!-- Icono delete - <i class="uil uil-trash-alt"></i> -->
     <!-- Icono editar texto - <i class="uil uil-file-edit-alt"></i> -->
     <!-- Icono editar imagen - <i class="uil uil-image-edit"></i> -->
