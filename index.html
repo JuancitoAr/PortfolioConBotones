@@ -39,51 +39,9 @@
             </nav>
         </header> 
         <div class="row">
-            <i class="uil uil-image-edit row align-items-center justify-content-center" style="font-size: 3.6em; height: 60vh; color: #fff"></i>
+            <i class="uil uil-image-edit row align-items-center justify-content-center" style="font-size: 3.6em; height: 60vh; color: #fff" data-bs-toggle="modal" data-bs-target="#banner"></i>
         </div>                     
     </section>
-
-    <!-- Modal Login -->
-    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md modal-dialog-centered ">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row justify-content-end">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="row">
-                            <h2 id="titulo_modal_login" class="modal-title">Login</h2>
-                        </div>
-                         
-                        <div class="row">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div class="mod">
-                                    <i class="uil uil-envelope-alt email"></i>
-                                    <input id="input_modal_login_correo" type="email" placeholder="Ingrese su correo">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <div class="mod">
-                                    <i id="icono" class="uil uil-lock password"></i>
-                                    <input id="input_modal_login_contraseña" type="password" placeholder="Ingrese su contraseña">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <button class="boton-modal-ingresar">Ingresar</button>
-                        </div>
-                        
-                    </div>
-                </div>                
-            </div>
-        </div>
-    </div>
 
     <!-- Acerca de -->
     <section class="container">
@@ -91,10 +49,9 @@
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 col-xxl-3 acerca text-center"> 
                 <img src="/Log_AP.jpg"> 
                     <div>
-                        
                         <h1 id="nombre">Juan Gabriel Arredondo</h1>
                         <h2 id="titulo">Full Stack Developer Jr.</h2>
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#perfil"></i>
                     </div> 
             </div>  
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 col-xl-9 col-xxl-9 pt-3"> 
@@ -103,10 +60,9 @@
                         <h2 class="text-center color-titulo">Acerca de mi</h2>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#acercaDeMi"></i>
                     </div>
                 </div>
-                <!-- <h2 class="text-center color-titulo">Acerca de mi</h2> -->
                 <p>Soy un estudiante avanzado de Ingenieria Quimica. Actualmente trabajo para el Estado Provincial Entrerriano, 
                     desempeñandome como encargado y responsable del área de Informatica y Sistemas.</p>
                 <p>Soy una persona responsable y sumamente comprometida con el trabajo, apasionado por el desarrollo e implementación
@@ -311,9 +267,14 @@
 
     <!-- Proyectos -->
     <section class="container mt-5">
-        <h1 class="color-titulo">
-            Proyectos
-        </h1>
+        <div class="row">
+            <div class="col">
+                <h1 class="color-titulo">Proyectos</h1>
+            </div>
+            <div class="col-auto">
+                <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9"></i>
+            </div>            
+        </div>
         <div class="card border-light mb-4 mt-3" style="max-width: auto;">
             <div class="card-header">
                 <div class="row">
@@ -322,7 +283,7 @@
                         <h6>Año 2011</h6>
                     </div>
                     <div class="col-auto">
-                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9"></i>
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em;""></i>
                         <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9"></i>
                     </div>
                 </div>
@@ -412,9 +373,134 @@
         </div>
     </section>
 
+    <!-- Modal Login -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row justify-content-end">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="row">
+                            <h2 id="titulo_modal_login" class="modal-title">Login</h2>
+                        </div>
+                         
+                        <div class="row">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="mod">
+                                    <i class="uil uil-envelope-alt email"></i>
+                                    <input id="input_modal_login_correo" type="email" placeholder="Ingrese su correo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="mod">
+                                    <i id="icono" class="uil uil-lock password"></i>
+                                    <input id="input_modal_login_contraseña" type="password" placeholder="Ingrese su contraseña">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <button class="boton-modal-ingresar">Ingresar</button>
+                        </div>
+                        
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Banner -->
+    <div class="modal fade" id="banner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modalBanner">Editar Banner</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="m-3">
+                    <label for="enlaceNuevoBanner" class="form-label">Enlace del Banner</label>
+                    <input class="form-control" id="enlaceNuevoBanner" type="text" aria-label="Enlace a nuevo Banner">
+                    <div class="form-text">Procura usar una imagen de calidad y de tamaño acorde.</div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Perfil -->
+    <div class="modal fade" id="perfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modalPerfil">Editar Perfil</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="m-3">
+                        <label for="enlaceNuevaFoto" class="form-label">Enlace de tu Foto</label>
+                        <input class="form-control" id="enlaceNuevaFoto" type="text" aria-label="Enlace a tu nueva Foto">
+                        <div class="form-text">Procura usar una imagen de calidad y de tamaño acorde.</div>
+                    </div>
+                    <div class="m-3">
+                        <label for="nuevoNombre_Apellido" class="form-label">Nombre y Apellido</label>
+                        <input class="form-control" id="nuevoNombre_Apellido" type="text" aria-label="Nombre y Apellido">
+                    </div>
+                    <div class="m-3">
+                        <label for="nuevoTitulo" class="form-label">Titulo</label>
+                        <input class="form-control" id="nuevoTitulo" type="text" aria-label="Titulo">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Acerca de Mi -->
+    <div class="modal fade" id="acercaDeMi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modalAcercaDeMi">Editar Acerca de Mi</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="m-3">
+                        <label for="nuevaDescripcion" class="form-label">Editar descripción</label>
+                        <textarea class="form-control" id="nuevaDescripcion" type="text" aria-label="Nueva Descripcion sobre ti" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
     <!-- Icono delete - <i class="uil uil-trash-alt"></i> -->
     <!-- Icono editar texto - <i class="uil uil-file-edit-alt"></i> -->
     <!-- Icono editar imagen - <i class="uil uil-image-edit"></i> -->
+    <!-- Icono agregar - <i class="uil uil-file-plus-alt"></i> -->
     <!-- Icono GitHub - <i class="uil uil-github"></i> -->
 
     <!-- JS Bootstrap mediante CDN -->
