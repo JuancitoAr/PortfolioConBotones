@@ -9,9 +9,6 @@
     <!-- CSS Bootstrap mediante CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 `
-    <!-- CSS Local -->
-    <link rel="stylesheet" href="/CSS/estilos.css">
-
     <!-- Iconos -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -85,7 +82,6 @@
                     <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarExperiencia"></i>
                 </div>   
             </div>
-
             <div class="card mx-1 my-1" id="Primer tarjeta">
                 <div class="row justify-content-evenly mx-1 my-1">
                     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 col-xxl-2 align-self-center">
@@ -145,30 +141,73 @@
     </section>
 
     <!-- Educación -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <h1>Educación</h1>
+            <div class="col">
+                <h1 class="color-titulo">Educación</h1>
+            </div>
+            <div class="col-auto">
+                <i class="uil uil-file-plus-alt" style="font-size: 2.5em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#agregarEducacion"></i>
+            </div>   
         </div>
         <div class="row">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      <h3>Educación de nivel medio</h3>
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <div class="col">Educación de Nivel Medio</div>
+                      <div class="col-auto pe-3">
+                        <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarEducacion"></i>
+                        <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarEducacion"></i>
+                      </div>             
                     </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Escuela Secundaria Comercio N° 1 - Justo José de Urquiza</div>
+                </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Institución</h3>
+                                <h5>Escuela de Comercio N° 1</h5><hr>
+                                <h4>Titulo</h4>
+                                <h5>Perito Mercantil y Mecanografo</h5><hr>
+                                <p>Estado</p>
+                                <p><strong>Conluido</strong></p>
+                            </div>
+                            <div class="col">
+                                <h4>Descripción</h4>
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      <h3>Educación Superior</h3>
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="col">Educación de Nivel Superior</div>
+                        <div class="col-auto pe-3">
+                          <i class="uil uil-file-edit-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#editarEducacion"></i>
+                          <i class="uil uil-trash-alt" style="font-size: 1.8em; color: #0d94b9" data-bs-toggle="modal" data-bs-target="#eliminarEducacion"></i>
+                        </div>
                     </button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Facultad de Ingenieria Quimica (UNL)</div>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Institución</h3>
+                                <h5>Facultad de Ingenieria Quimica - UNL</h5><hr>
+                                <h4>Titulo</h4>
+                                <h5>Ingeniero Quimico</h5><hr>
+                                <p>Estado</p>
+                                <p><strong>En Curso</strong></p>
+                            </div>
+                            <div class="col">
+                                <h4>Descripción</h4>
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -582,11 +621,9 @@
                         <div class="row justify-content-end">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-
                         <div class="row">
                             <h2 id="titulo_modal_login" class="modal-title">Login</h2>
-                        </div>
-                         
+                        </div>                   
                         <div class="row">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="mod">
@@ -595,7 +632,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="d-flex justify-content-center align-items-center">
                                 <div class="mod">
@@ -604,11 +640,9 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="row">
                             <button class="boton-modal-ingresar">Ingresar</button>
                         </div>
-                        
                     </div>
                 </div>                
             </div>
@@ -783,6 +817,111 @@
                     </div>
                 </div>
                 </div>
+        </div>
+
+    <!-- Modales Educación
+    ------------------------>
+        <!-- Modal Agregar Educación -->
+        <div class="modal fade" id="agregarEducacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalAgregarEducacion">Nuevo Nivel de Educación o Certificación</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-4">
+                            <label for="nuevoGrado" class="form-label">Nivel - Grado - Certificacíon</label>
+                            <input class="form-control" id="nuevoGrado" type="text" placeholder="Agrega aqui el texto que engloba y oculta lo que quieres mostrar" aria-label="Grado Educativo">
+                        </div>
+                        <div class="m-4">
+                            <label for="nuevaInstitucion" class="form-label">Institución</label>
+                            <input class="form-control" id="nuevaInstitucion" type="text" aria-label="Institucion Educativa">
+                        </div>
+                        <div class="m-4">
+                            <label for="nuevoTitulo" class="form-label">Titulo</label>
+                            <input class="form-control" id="nuevoTitulo" type="text" aria-label="Titulo">
+                        </div>
+                        <div class="m-4">
+                            <label for="nuevoEstado" class="form-label">Estado</label>
+                            <input class="form-control" id="nuevoEstado" type="text" aria-label="Estado alcanzado">
+                        </div>
+                        <div class="m-4">
+                            <label for="nuevaDescripcionEducacion" class="form-label">Descripción asociada</label>
+                            <textarea class="form-control" id="nuevaDescripcionEducacion" type="text" aria-label="Nueva Descripcion de Educacion" rows="5"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
+        </div>        
+
+        <!-- Modal Editar Educación -->
+        <div class="modal fade" id="editarEducacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalAgregarEducacion">Editar Nivel de Educación o Certificación</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-4">
+                            <label for="editarGrado" class="form-label">Nivel - Grado - Certificacíon</label>
+                            <input class="form-control" id="editarGrado" type="text" placeholder="Agrega aqui el texto que engloba y oculta lo que quieres mostrar" aria-label="Grado Educativo">
+                        </div>
+                        <div class="m-4">
+                            <label for="editarInstitucion" class="form-label">Institución</label>
+                            <input class="form-control" id="editarInstitucion" type="text" aria-label="Institucion Educativa">
+                        </div>
+                        <div class="m-4">
+                            <label for="editarTitulo" class="form-label">Titulo</label>
+                            <input class="form-control" id="editarTitulo" type="text" aria-label="Titulo">
+                        </div>
+                        <div class="m-4">
+                            <label for="editarEstado" class="form-label">Estado</label>
+                            <input class="form-control" id="editarEstado" type="text" aria-label="Estado alcanzado">
+                        </div>
+                        <div class="m-4">
+                            <label for="editarDescripcionEducacion" class="form-label">Descripción asociada</label>
+                            <textarea class="form-control" id="editarDescripcionEducacion" type="text" aria-label="Nueva Descripcion de Educacion" rows="5"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal Eliminar Educacion -->
+        <div class="modal fade" id="eliminarEducacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalEliminarEducacion">Eliminar esta Educación</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-4">
+                            Estas a punto de <strong>Eliminar</strong> este detalle en tu Educación!!! Estas Seguro?
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger">Aceptar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancerlar</button>
+                </div>
+            </div>
+            </div>
         </div>
 
     <!-- Modales Habilidades
